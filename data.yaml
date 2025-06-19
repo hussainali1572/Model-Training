@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['NO_tumor', 'glioma', 'meningioma', 'pituitary', 'space-occupying lesion-']
+
+roboflow:
+  workspace: arch-technologies
+  project: tumor-detection-ko5jp-xsd7w
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/arch-technologies/tumor-detection-ko5jp-xsd7w/dataset/1
